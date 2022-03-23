@@ -1,0 +1,93 @@
+footer{
+    margin-top: 5%;
+}
+
+h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    padding: 5% 10%;
+    margin: 0;
+}
+.top-container{
+    width: 100%;
+    height: 500px ;
+    background-image: url(../images/topo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 10%;
+}
+
+.container{
+    /* width: 100%; */
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 5%;
+}
+
+.container .banner-lateral{
+    width: 25%;
+    height: 1110px;
+    background-image: url(../images/retangulo.svg);
+    background-size: cover;
+    
+}
+
+.container form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 20px;
+}
+
+form h2{
+    color: #FFC107;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 85px;
+}
+
+input{
+    height: 50px;
+    padding-left: 20px;
+}
+
+textarea{
+    height: 250px;
+    padding: 20px 0px 0px 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 25px;
+    border: 1px solid #FFA000;
+    border-radius: 10px;
+    
+}
+
+
+form button{
+    border: none;
+    color: #FFF;
+    background-color: #FFC107;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 50px;
+    padding: 15px 50px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1360px){
+    .top-container{
+        height: 405px;
+    }
+}
